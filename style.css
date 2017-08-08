@@ -1,0 +1,12 @@
+.navigation{
+    display: inline-block;
+    positioned: fixed;
+}
+li{
+    display: inline-block;
+    position: relative;
+    background color: rgba(0,191,255,.6);
+    z-index:10000;
+    text-align: left;
+    text-transform: upercase;
+}
