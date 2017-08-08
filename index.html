@@ -1,14 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 
-  <head>
+<head>
     <title>InventYU</title>
-  </head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-animate.js"></script>
+    <script src="script.js"></script>
+</head>
 
-  <body>
-
-    <h1>Hello!</h1>
-
-  </body>
+<body ng-app="app" ng-controller="AppCtrl">
+<div id="animation" ng-controller="AnimationCtrl">
+    <img id="animation-magen-david" class="centered" src="images/MagenDavid.png">
+</div>
+</body>
 
 </html>
